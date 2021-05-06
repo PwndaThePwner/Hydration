@@ -1,0 +1,956 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FEMA_Lib:AD5933 U?
+U 1 1 5F88DA91
+P 5050 3400
+F 0 "U?" H 5050 4125 50  0000 C CNN
+F 1 "AD5933" H 5050 4034 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm" H 5050 4000 50  0001 C CNN
+F 3 "" H 5050 4000 50  0001 C CNN
+	1    5050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3700 5500 3800
+Connection ~ 5500 3800
+Wire Wire Line
+	5500 3800 5500 3900
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F88F1C9
+P 4400 3100
+F 0 "R?" V 4204 3100 50  0000 C CNN
+F 1 "20K" V 4295 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3100 50  0001 C CNN
+F 3 "~" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3100 4500 3100
+Wire Wire Line
+	4300 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2900
+Wire Wire Line
+	4200 2900 4600 2900
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F8906F3
+P 4150 3850
+F 0 "C?" H 4242 3896 50  0000 L CNN
+F 1 "0.1uF" H 4242 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4150 3850 50  0001 C CNN
+F 3 "~" H 4150 3850 50  0001 C CNN
+	1    4150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F89169E
+P 3750 3850
+F 0 "C?" H 3842 3896 50  0000 L CNN
+F 1 "0.1uF" H 3842 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3750 3850 50  0001 C CNN
+F 3 "~" H 3750 3850 50  0001 C CNN
+	1    3750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3800 4600 3700
+Wire Wire Line
+	4600 3700 4150 3700
+Wire Wire Line
+	4150 3700 4150 3750
+Connection ~ 4600 3700
+Wire Wire Line
+	3750 3750 3750 3700
+Wire Wire Line
+	3750 3700 4150 3700
+Connection ~ 4150 3700
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7B90CB
+P 5500 4000
+F 0 "#PWR?" H 5500 3750 50  0001 C CNN
+F 1 "GND" H 5505 3827 50  0000 C CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3900 5500 4000
+Connection ~ 5500 3900
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F7BA36E
+P 5800 2900
+F 0 "C?" H 5892 2946 50  0000 L CNN
+F 1 "47nF" H 5892 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2900 5700 2900
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F7BB0EF
+P 6150 2650
+F 0 "R?" V 5954 2650 50  0000 C CNN
+F 1 "49.9k" V 6045 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 2650 50  0001 C CNN
+F 3 "~" H 6150 2650 50  0001 C CNN
+	1    6150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F7BBBAB
+P 6150 3150
+F 0 "R?" V 5954 3150 50  0000 C CNN
+F 1 "49.9k" V 6045 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3150 50  0001 C CNN
+F 3 "~" H 6150 3150 50  0001 C CNN
+	1    6150 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7BC39A
+P 6150 3450
+F 0 "#PWR?" H 6150 3200 50  0001 C CNN
+F 1 "GND" H 6155 3277 50  0000 C CNN
+F 2 "" H 6150 3450 50  0001 C CNN
+F 3 "" H 6150 3450 50  0001 C CNN
+	1    6150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3250 6150 3450
+Wire Wire Line
+	6150 2750 6150 2900
+Wire Wire Line
+	5900 2900 6150 2900
+Connection ~ 6150 2900
+Wire Wire Line
+	6150 2900 6150 3050
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F7BDD3F
+P 6150 2250
+F 0 "#PWR?" H 6150 2100 50  0001 C CNN
+F 1 "+3.3V" H 6165 2423 50  0000 C CNN
+F 2 "" H 6150 2250 50  0001 C CNN
+F 3 "" H 6150 2250 50  0001 C CNN
+	1    6150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2550 6150 2250
+$Comp
+L FEMA_Lib:AD8606 U?
+U 1 1 5F7BF8F2
+P 1700 1450
+F 0 "U?" H 1700 1825 50  0000 C CNN
+F 1 "AD8606" H 1700 1734 50  0000 C CNN
+F 2 "" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1700 1450
+	1    0    0    -1  
+$EndComp
+Text Label 900  1300 0    50   ~ 0
+OP_OUT_A
+Text Label 900  1400 0    50   ~ 0
+OP_-IN_A
+Text Label 900  1500 0    50   ~ 0
+OP_+IN_A
+Text Label 900  1600 0    50   ~ 0
+OP_V-
+Text Label 2500 1300 2    50   ~ 0
+OP_V+
+Text Label 2500 1400 2    50   ~ 0
+OP_OUT_B
+Text Label 2500 1500 2    50   ~ 0
+OP_-IN_B
+Text Label 2500 1600 2    50   ~ 0
+OP_+IN_B
+Wire Wire Line
+	2500 1300 2100 1300
+Wire Wire Line
+	2500 1400 2100 1400
+Wire Wire Line
+	2500 1500 2100 1500
+Wire Wire Line
+	2500 1600 2100 1600
+Wire Wire Line
+	900  1300 1300 1300
+Wire Wire Line
+	900  1400 1300 1400
+Wire Wire Line
+	900  1500 1300 1500
+Wire Wire Line
+	900  1600 1300 1600
+Text Label 6950 2900 2    50   ~ 0
+OP_+IN_A
+Wire Wire Line
+	6150 2900 6950 2900
+Text Label 7150 2800 0    50   ~ 0
+OP_OUT_A
+Wire Wire Line
+	6950 2700 7150 2700
+Wire Wire Line
+	7150 2700 7150 2800
+Text Label 6950 2700 2    50   ~ 0
+OP_-IN_A
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7C858A
+P 4150 4100
+F 0 "#PWR?" H 4150 3850 50  0001 C CNN
+F 1 "GND" H 4155 3927 50  0000 C CNN
+F 2 "" H 4150 4100 50  0001 C CNN
+F 3 "" H 4150 4100 50  0001 C CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7C8D49
+P 3750 4100
+F 0 "#PWR?" H 3750 3850 50  0001 C CNN
+F 1 "GND" H 3755 3927 50  0000 C CNN
+F 2 "" H 3750 4100 50  0001 C CNN
+F 3 "" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3950 3750 4100
+Wire Wire Line
+	4150 3950 4150 4100
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F7CA4DA
+P 4500 4600
+F 0 "C?" H 4592 4646 50  0000 L CNN
+F 1 "0.1uF" H 4592 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 4600 50  0001 C CNN
+F 3 "~" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F7CAC64
+P 4100 4600
+F 0 "C?" H 4192 4646 50  0000 L CNN
+F 1 "0.1uF" H 4192 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 4600 50  0001 C CNN
+F 3 "~" H 4100 4600 50  0001 C CNN
+	1    4100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7CB562
+P 4500 4850
+F 0 "#PWR?" H 4500 4600 50  0001 C CNN
+F 1 "GND" H 4505 4677 50  0000 C CNN
+F 2 "" H 4500 4850 50  0001 C CNN
+F 3 "" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7CBEB1
+P 4100 4850
+F 0 "#PWR?" H 4100 4600 50  0001 C CNN
+F 1 "GND" H 4105 4677 50  0000 C CNN
+F 2 "" H 4100 4850 50  0001 C CNN
+F 3 "" H 4100 4850 50  0001 C CNN
+	1    4100 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4700 4100 4850
+Wire Wire Line
+	4500 4700 4500 4850
+Wire Wire Line
+	4100 4500 4100 4450
+Wire Wire Line
+	4100 4450 4500 4450
+Wire Wire Line
+	4600 3900 4500 3900
+Wire Wire Line
+	4500 3900 4500 4450
+Connection ~ 4500 4450
+Wire Wire Line
+	4500 4450 4500 4500
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F7CF961
+P 4650 4300
+F 0 "#PWR?" H 4650 4150 50  0001 C CNN
+F 1 "+3.3V" H 4665 4473 50  0000 C CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "" H 4650 4300 50  0001 C CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F7D04FE
+P 3750 3550
+F 0 "#PWR?" H 3750 3400 50  0001 C CNN
+F 1 "+3.3V" H 3765 3723 50  0000 C CNN
+F 2 "" H 3750 3550 50  0001 C CNN
+F 3 "" H 3750 3550 50  0001 C CNN
+	1    3750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3550 3750 3700
+Connection ~ 3750 3700
+Wire Wire Line
+	4650 4300 4650 4450
+Wire Wire Line
+	4650 4450 4500 4450
+$Comp
+L FEMA_Lib:ADG849 U?
+U 1 1 5F7D2F3C
+P 7900 3250
+F 0 "U?" H 7900 3575 50  0000 C CNN
+F 1 "ADG849" H 7900 3484 50  0000 C CNN
+F 2 "" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2800 8400 3250
+Wire Wire Line
+	8400 3250 8200 3250
+Wire Wire Line
+	7150 2800 8400 2800
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F7D7E32
+P 7350 3050
+F 0 "#PWR?" H 7350 2900 50  0001 C CNN
+F 1 "+3.3V" H 7365 3223 50  0000 C CNN
+F 2 "" H 7350 3050 50  0001 C CNN
+F 3 "" H 7350 3050 50  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7D8B37
+P 7550 3700
+F 0 "#PWR?" H 7550 3450 50  0001 C CNN
+F 1 "GND" H 7555 3527 50  0000 C CNN
+F 2 "" H 7550 3700 50  0001 C CNN
+F 3 "" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F7DCD81
+P 7350 3450
+F 0 "C?" H 7442 3496 50  0000 L CNN
+F 1 "0.1uF" H 7442 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 3450 50  0001 C CNN
+F 3 "~" H 7350 3450 50  0001 C CNN
+	1    7350 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 3350 7550 3350
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F7E88EE
+P 7350 3700
+F 0 "#PWR?" H 7350 3450 50  0001 C CNN
+F 1 "GND" H 7355 3527 50  0000 C CNN
+F 2 "" H 7350 3700 50  0001 C CNN
+F 3 "" H 7350 3700 50  0001 C CNN
+	1    7350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3350 7550 3700
+Wire Wire Line
+	7350 3700 7350 3550
+Wire Wire Line
+	7600 3250 7350 3250
+Wire Wire Line
+	7350 3250 7350 3350
+Wire Wire Line
+	7350 3050 7350 3250
+Connection ~ 7350 3250
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F7EC3E6
+P 8450 4000
+F 0 "R?" V 8254 4000 50  0000 C CNN
+F 1 "1k" V 8345 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8450 4000 50  0001 C CNN
+F 3 "~" H 8450 4000 50  0001 C CNN
+	1    8450 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 3350 8450 3350
+$Comp
+L FEMA_Lib:ADG849 U?
+U 1 1 5F7EEA57
+P 8550 5500
+F 0 "U?" H 8550 5825 50  0000 C CNN
+F 1 "ADG849" H 8550 5734 50  0000 C CNN
+F 2 "FEMA_LIB_FOOT:ADG849" H 8550 5700 50  0001 C CNN
+F 3 "" H 8550 5700 50  0001 C CNN
+	1    8550 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F7F6747
+P 9100 5250
+F 0 "#PWR?" H 9100 5100 50  0001 C CNN
+F 1 "+3.3V" H 9115 5423 50  0000 C CNN
+F 2 "" H 9100 5250 50  0001 C CNN
+F 3 "" H 9100 5250 50  0001 C CNN
+	1    9100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F7F9307
+P 7750 5100
+F 0 "R?" V 7554 5100 50  0000 C CNN
+F 1 "100k" V 7645 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 5100 50  0001 C CNN
+F 3 "~" H 7750 5100 50  0001 C CNN
+	1    7750 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F7FA359
+P 8050 5100
+F 0 "R?" V 7854 5100 50  0000 C CNN
+F 1 "20" V 7945 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8050 5100 50  0001 C CNN
+F 3 "~" H 8050 5100 50  0001 C CNN
+	1    8050 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F81E491
+P 9100 5700
+F 0 "C?" H 9192 5746 50  0000 L CNN
+F 1 "0.1uF" H 9192 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9100 5700 50  0001 C CNN
+F 3 "~" H 9100 5700 50  0001 C CNN
+	1    9100 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F81F610
+P 8900 5950
+F 0 "#PWR?" H 8900 5700 50  0001 C CNN
+F 1 "GND" H 8905 5777 50  0000 C CNN
+F 2 "" H 8900 5950 50  0001 C CNN
+F 3 "" H 8900 5950 50  0001 C CNN
+	1    8900 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F8236CD
+P 9100 5950
+F 0 "#PWR?" H 9100 5700 50  0001 C CNN
+F 1 "GND" H 9105 5777 50  0000 C CNN
+F 2 "" H 9100 5950 50  0001 C CNN
+F 3 "" H 9100 5950 50  0001 C CNN
+	1    9100 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5800 9100 5950
+Wire Wire Line
+	8900 5950 8900 5600
+Wire Wire Line
+	8900 5600 8850 5600
+Wire Wire Line
+	9100 5600 9100 5500
+Wire Wire Line
+	9100 5500 8850 5500
+Wire Wire Line
+	9100 5250 9100 5500
+Connection ~ 9100 5500
+Wire Wire Line
+	8250 5400 8050 5400
+Wire Wire Line
+	8050 5400 8050 5200
+Wire Wire Line
+	8250 5600 7750 5600
+Wire Wire Line
+	7750 5600 7750 5200
+Wire Wire Line
+	8050 5000 8050 4600
+Connection ~ 8050 4600
+Wire Wire Line
+	8050 4600 8450 4600
+Wire Wire Line
+	7750 5000 7750 4600
+Wire Wire Line
+	7750 4600 8050 4600
+Text Label 7650 4600 2    50   ~ 0
+OP_-IN_B
+Text Label 6300 4850 2    50   ~ 0
+OP_+IN_B
+Text Label 7400 5500 2    50   ~ 0
+OP_OUT_B
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F842A87
+P 6050 4600
+F 0 "R?" V 5854 4600 50  0000 C CNN
+F 1 "49.9k" V 5945 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 4600 50  0001 C CNN
+F 3 "~" H 6050 4600 50  0001 C CNN
+	1    6050 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F843776
+P 6550 4600
+F 0 "R?" V 6354 4600 50  0000 C CNN
+F 1 "49.9k" V 6445 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 4600 50  0001 C CNN
+F 3 "~" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F84423B
+P 6800 4600
+F 0 "#PWR?" H 6800 4350 50  0001 C CNN
+F 1 "GND" V 6805 4472 50  0000 R CNN
+F 2 "" H 6800 4600 50  0001 C CNN
+F 3 "" H 6800 4600 50  0001 C CNN
+	1    6800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F844B3C
+P 5800 4600
+F 0 "#PWR?" H 5800 4450 50  0001 C CNN
+F 1 "+3.3V" V 5815 4728 50  0000 L CNN
+F 2 "" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4850 6300 4600
+Wire Wire Line
+	6300 4600 6150 4600
+Wire Wire Line
+	5950 4600 5800 4600
+Wire Wire Line
+	6450 4600 6300 4600
+Connection ~ 6300 4600
+Wire Wire Line
+	6650 4600 6800 4600
+Wire Wire Line
+	7650 4600 7750 4600
+Connection ~ 7750 4600
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F86239D
+P 6650 5500
+F 0 "R?" V 6454 5500 50  0000 C CNN
+F 1 "20K" V 6545 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6650 5500 50  0001 C CNN
+F 3 "~" H 6650 5500 50  0001 C CNN
+	1    6650 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 5500 8250 5500
+Wire Wire Line
+	6550 5500 3450 5500
+Wire Wire Line
+	3450 5500 3450 2900
+Wire Wire Line
+	3450 2900 4200 2900
+Connection ~ 4200 2900
+Wire Wire Line
+	8450 3350 8450 3900
+Wire Wire Line
+	8450 4100 8450 4600
+Text HLabel 3700 5950 1    50   Input ~ 0
+RFB_SET
+Text HLabel 4100 5950 1    50   Input ~ 0
+REF_SET
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F8BBA33
+P 3700 6200
+F 0 "R?" V 3504 6200 50  0000 C CNN
+F 1 "10K" V 3595 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 6200 50  0001 C CNN
+F 3 "~" H 3700 6200 50  0001 C CNN
+	1    3700 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R?
+U 1 1 5F8BC26E
+P 4100 6200
+F 0 "R?" V 3904 6200 50  0000 C CNN
+F 1 "10K" V 3995 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 6200 50  0001 C CNN
+F 3 "~" H 4100 6200 50  0001 C CNN
+	1    4100 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 5950 3700 6100
+Wire Wire Line
+	4100 5950 4100 6100
+Text Label 3700 6850 1    50   ~ 0
+IMP_SEL_RFB
+Wire Wire Line
+	3700 6850 3700 6300
+Text Label 4100 6850 1    50   ~ 0
+IMP_SEL_REF
+Wire Wire Line
+	4100 6850 4100 6300
+Text Label 9650 5400 2    50   ~ 0
+IMP_SEL_RFB
+Wire Wire Line
+	9650 5400 8850 5400
+Text Label 6800 3150 0    50   ~ 0
+IMP_SEL_REF
+Wire Wire Line
+	6800 3150 7600 3150
+$Comp
+L FEMA_Lib:ADP150AUJZ-3.0-R7 U?
+U 1 1 5F8CA31C
+P 4900 1150
+F 0 "U?" H 4900 1475 50  0000 C CNN
+F 1 "ADP150AUJZ-3.0-R7" H 4900 1384 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4900 1350 50  0001 C CNN
+F 3 "" H 4900 1350 50  0001 C CNN
+	1    4900 1150
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 1050 0    50   Input ~ 0
+VIN
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F8CB39E
+P 4450 1950
+F 0 "#PWR?" H 4450 1700 50  0001 C CNN
+F 1 "GND" H 4455 1777 50  0000 C CNN
+F 2 "" H 4450 1950 50  0001 C CNN
+F 3 "" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 1750 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3500 1050 3700 1050
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F8D1A2F
+P 3700 1500
+F 0 "C?" H 3792 1546 50  0000 L CNN
+F 1 "0.1uF" H 3792 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3700 1500 50  0001 C CNN
+F 3 "~" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F8D3643
+P 4100 1500
+F 0 "C?" H 4192 1546 50  0000 L CNN
+F 1 "0.1uF" H 4192 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 1500 50  0001 C CNN
+F 3 "~" H 4100 1500 50  0001 C CNN
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1400 3700 1050
+Connection ~ 3700 1050
+Wire Wire Line
+	3700 1050 4100 1050
+Wire Wire Line
+	4100 1400 4100 1250
+Wire Wire Line
+	4100 1250 4100 1050
+Connection ~ 4100 1250
+Connection ~ 4100 1050
+Wire Wire Line
+	3700 1600 3700 1750
+Wire Wire Line
+	3700 1750 3500 1750
+Wire Wire Line
+	4100 1600 4100 1750
+Wire Wire Line
+	4100 1750 3700 1750
+Connection ~ 3700 1750
+Connection ~ 4100 1750
+Wire Wire Line
+	4100 1050 4550 1050
+Wire Wire Line
+	4100 1250 4550 1250
+Wire Wire Line
+	4550 1150 4450 1150
+Wire Wire Line
+	4450 1150 4450 1750
+Wire Wire Line
+	4450 1750 4100 1750
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F8EEFBA
+P 5550 1300
+F 0 "C?" H 5642 1346 50  0000 L CNN
+F 1 "0.1uF" H 5642 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5550 1300 50  0001 C CNN
+F 3 "~" H 5550 1300 50  0001 C CNN
+	1    5550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F8EF85E
+P 5950 1300
+F 0 "C?" H 6042 1346 50  0000 L CNN
+F 1 "0.1uF" H 6042 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 1300 50  0001 C CNN
+F 3 "~" H 5950 1300 50  0001 C CNN
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1050 5550 1050
+Wire Wire Line
+	5550 1050 5550 1200
+Wire Wire Line
+	5950 1200 5950 1050
+Wire Wire Line
+	5950 1050 5550 1050
+Connection ~ 5550 1050
+Wire Wire Line
+	4450 1950 4450 1750
+Connection ~ 4450 1750
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F8FBABA
+P 5550 1600
+F 0 "#PWR?" H 5550 1350 50  0001 C CNN
+F 1 "GND" H 5555 1427 50  0000 C CNN
+F 2 "" H 5550 1600 50  0001 C CNN
+F 3 "" H 5550 1600 50  0001 C CNN
+	1    5550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1400 5550 1550
+Wire Wire Line
+	5950 1400 5950 1550
+Wire Wire Line
+	5950 1550 5550 1550
+Connection ~ 5550 1550
+Wire Wire Line
+	5550 1550 5550 1600
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR?
+U 1 1 5F901F95
+P 5950 950
+F 0 "#PWR?" H 5950 800 50  0001 C CNN
+F 1 "+3.3V" H 5965 1123 50  0000 C CNN
+F 2 "" H 5950 950 50  0001 C CNN
+F 3 "" H 5950 950 50  0001 C CNN
+	1    5950 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 950  5950 1050
+Connection ~ 5950 1050
+Text Label 6700 1050 2    50   ~ 0
+OP_V+
+Text Label 7350 1450 0    50   ~ 0
+OP_V-
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F905EDF
+P 6800 1250
+F 0 "C?" H 6892 1296 50  0000 L CNN
+F 1 "0.1uF" H 6892 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 1250 50  0001 C CNN
+F 3 "~" H 6800 1250 50  0001 C CNN
+	1    6800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C?
+U 1 1 5F9065A2
+P 7200 1250
+F 0 "C?" H 7292 1296 50  0000 L CNN
+F 1 "0.1uF" H 7292 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 1250 50  0001 C CNN
+F 3 "~" H 7200 1250 50  0001 C CNN
+	1    7200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1050 6800 1050
+Wire Wire Line
+	6800 1050 6800 1150
+Wire Wire Line
+	6800 1050 7200 1050
+Wire Wire Line
+	7200 1050 7200 1150
+Connection ~ 6800 1050
+Wire Wire Line
+	7200 1350 7200 1450
+Wire Wire Line
+	7200 1450 7350 1450
+Wire Wire Line
+	6800 1350 6800 1450
+Wire Wire Line
+	6800 1450 7200 1450
+Connection ~ 7200 1450
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F913980
+P 6800 1600
+F 0 "#PWR?" H 6800 1350 50  0001 C CNN
+F 1 "GND" H 6805 1427 50  0000 C CNN
+F 2 "" H 6800 1600 50  0001 C CNN
+F 3 "" H 6800 1600 50  0001 C CNN
+	1    6800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1600 6800 1450
+Connection ~ 6800 1450
+Text Notes 8350 3550 2    50   ~ 0
+For IMP_SEL_REF:
+Text Notes 8350 3650 2    50   ~ 0
+H = S1 ON
+Text Notes 8350 3750 2    50   ~ 0
+L = S2 ON
+Text Notes 8700 5800 2    50   ~ 0
+For IMP_SEL_RFB:
+Text Notes 8700 5900 2    50   ~ 0
+H = S1 ON
+Text Notes 8700 6000 2    50   ~ 0
+L = S2 ON
+$Comp
+L FEMAVitalsMonitor-rescue:Conn_01x02-Connector_Generic J?
+U 1 1 5F95F0D3
+P 9050 3150
+F 0 "J?" H 9130 3142 50  0000 L CNN
+F 1 "Electrode +" H 9130 3051 50  0000 L CNN
+F 2 "" H 9050 3150 50  0001 C CNN
+F 3 "~" H 9050 3150 50  0001 C CNN
+	1    9050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:Conn_01x02-Connector_Generic J?
+U 1 1 5F96C8E0
+P 9050 4600
+F 0 "J?" H 9130 4592 50  0000 L CNN
+F 1 "Electrode -" H 9130 4501 50  0000 L CNN
+F 2 "" H 9050 4600 50  0001 C CNN
+F 3 "~" H 9050 4600 50  0001 C CNN
+	1    9050 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3150 8850 3150
+Wire Wire Line
+	8850 4600 8450 4600
+Connection ~ 8450 4600
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F974379
+P 8750 3350
+F 0 "#PWR?" H 8750 3100 50  0001 C CNN
+F 1 "GND" H 8755 3177 50  0000 C CNN
+F 2 "" H 8750 3350 50  0001 C CNN
+F 3 "" H 8750 3350 50  0001 C CNN
+	1    8750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR?
+U 1 1 5F974C03
+P 8750 4800
+F 0 "#PWR?" H 8750 4550 50  0001 C CNN
+F 1 "GND" H 8755 4627 50  0000 C CNN
+F 2 "" H 8750 4800 50  0001 C CNN
+F 3 "" H 8750 4800 50  0001 C CNN
+	1    8750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3350 8750 3250
+Wire Wire Line
+	8750 3250 8850 3250
+Wire Wire Line
+	8750 4800 8750 4700
+Wire Wire Line
+	8750 4700 8850 4700
+Text Notes 8600 7500 2    50   ~ 0
+Impedance Analyzer Sub-Cirucit
+Text Notes 10700 7650 2    50   ~ 0
+1.0
+Text HLabel 4350 3500 0    50   BiDi ~ 0
+SDA
+Text HLabel 4350 3400 0    50   BiDi ~ 0
+SCL
+Text HLabel 4350 3300 0    50   Input ~ 0
+MCLK
+Wire Wire Line
+	4350 3300 4600 3300
+Wire Wire Line
+	4600 3400 4350 3400
+Wire Wire Line
+	4350 3500 4600 3500
+$EndSCHEMATC

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ASAE_Lib)(type Legacy)(uri "C:/Users/Tage Firkin/Documents/School/MEEG467/ControlsDAS/Controls_DAS/Complex_ControlsDAS/ASAE_Lib.lib")(options "")(descr ""))
+  (lib (name FEMAVitalsMonitor-rescue)(type Legacy)(uri ${KIPRJMOD}/FEMAVitalsMonitor-rescue.lib)(options "")(descr ""))
+)

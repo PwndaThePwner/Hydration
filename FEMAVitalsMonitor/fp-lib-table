@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FEMA_LIB_FOOT)(type KiCad)(uri ${KIPRJMOD}/FEMA_LIB_FOOT.pretty)(options "")(descr ""))
+  (lib (name ASAE_LIB_FOOT)(type KiCad)(uri ${KIPRJMOD}/ASAE_LIB_FOOT.pretty)(options "")(descr ""))
+)
