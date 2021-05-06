@@ -1,0 +1,76 @@
+Info: Processing component "SW1:/5F857F8F:Button_Switch_THT:SW_PUSH_6mm_H7.3mm".
+Info: Processing component "D4:/5F80CAD3/5F8233C8:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal".
+Info: Processing component "U3:/5F774479:ASAE_LIB_FOOT:RFM69HCW".
+Info: Processing component "J2:/5F898DEE:Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical".
+Info: Processing component "J3:/5F6CFB2B:Connector_USB:USB_Micro-B_Wuerth_629105150521".
+Info: Processing component "U2:/5F89F8A3:Package_TO_SOT_SMD:SOT-23-5".
+Info: Processing component "L1:/5F80CAD3/5F81B039:Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R1:/5F6CD37C:Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder".
+Info: Processing component "U1:/5F6A055F:Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm".
+Info: Processing component "R2:/5F6CC2D7:Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder".
+Info: Processing component "R3:/5F7A9434:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Processing component "J1:/5F9078E2:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical".
+Info: Processing component "R4:/5F8B1F6A:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R5:/5F826155:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "S1:/5F975B9D:AS13AH".
+Info: Processing component "R6:/5F85721D:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R11:/5F80CAD3/5F82283A:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R7:/5F87E89C:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R10:/5F80CAD3/5F81A647:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R8:/5F87F165:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "R9:/5F80CAD3/5F82C0A1:Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "C7:/5F8456E3:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "C1:/5F6BD40E:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "C2:/5F8B5FE4:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "Y1:/5F6C3892:SamacSys_Parts:MC2520Z800000C19XSH".
+Info: Processing component "C3:/5F8A0EE3:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "C4:/5F8A2DA6:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "U8:/5F80CAD3/5F80FC1D:RF_GPS:ublox_NEO".
+Info: Processing component "C5:/5F7C6FBC:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "C6:/5F8FAB36:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "U7:/5F80CAD3/5F810685:Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm".
+Info: Processing component "U4:/5F77A42A:Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical".
+Info: Processing component "U6:/5F80CAD3/5F81B327:".
+Info: Processing component "C8:/5F80CAD3/5F81607D:Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Info: Processing component "D1:/5F8BF599:Diode_SMD:D_SOD-123F".
+Info: Processing component "U5:/5F82505C:Package_TO_SOT_SMD:SOT-23-5".
+Info: Processing component "D2:/5F850339:LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder".
+Info: Processing component "D3:/5F80CAD3/5F82DE1F:LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder".
+Add U1 (footprint "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm").
+Add SW1 (footprint "Button_Switch_THT:SW_PUSH_6mm_H7.3mm").
+Add U5 (footprint "Package_TO_SOT_SMD:SOT-23-5").
+Add U7 (footprint "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm").
+Add S1 (footprint "AS13AH").
+Add U2 (footprint "Package_TO_SOT_SMD:SOT-23-5").
+Add U8 (footprint "RF_GPS:ublox_NEO").
+Add U4 (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical").
+Add Y1 (footprint "SamacSys_Parts:MC2520Z800000C19XSH").
+Add U3 (footprint "ASAE_LIB_FOOT:RFM69HCW").
+Add D1 (footprint "Diode_SMD:D_SOD-123F").
+Add D2 (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder").
+Add D3 (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder").
+Add D4 (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal").
+Add J1 (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical").
+Add J2 (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical").
+Add R3 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder").
+Add R2 (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder").
+Add R1 (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder").
+Add L1 (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder").
+Add J3 (footprint "Connector_USB:USB_Micro-B_Wuerth_629105150521").
+Error: Cannot add C7 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C1 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add U6 (no footprint assigned).
+Error: Cannot add C6 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C5 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C4 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C3 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C2 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R8 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add C8 (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R4 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R5 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R11 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R6 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R10 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R7 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).
+Error: Cannot add R9 (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" not found).

@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FEMA_Lib:BMP280 U1
+U 1 1 5F87830A
+P 5550 3350
+F 0 "U1" H 5550 3725 50  0000 C CNN
+F 1 "BME280" H 5550 3634 50  0000 C CNN
+F 2 "FEMA_LIB_FOOT:BMP280" H 5550 3600 50  0001 C CNN
+F 3 "" H 5550 3600 50  0001 C CNN
+	1    5550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR0101
+U 1 1 5F878310
+P 5050 3800
+F 0 "#PWR0101" H 5050 3550 50  0001 C CNN
+F 1 "GND" H 5055 3627 50  0000 C CNN
+F 2 "" H 5050 3800 50  0001 C CNN
+F 3 "" H 5050 3800 50  0001 C CNN
+	1    5050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3200 5050 3200
+Wire Wire Line
+	5050 3200 5050 3800
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR0102
+U 1 1 5F878318
+P 6050 3800
+F 0 "#PWR0102" H 6050 3550 50  0001 C CNN
+F 1 "GND" H 6055 3627 50  0000 C CNN
+F 2 "" H 6050 3800 50  0001 C CNN
+F 3 "" H 6050 3800 50  0001 C CNN
+	1    6050 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3300 6050 3300
+Wire Wire Line
+	6050 3300 6050 3800
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR0103
+U 1 1 5F878320
+P 4800 2950
+F 0 "#PWR0103" H 4800 2800 50  0001 C CNN
+F 1 "+3.3V" H 4815 3123 50  0000 C CNN
+F 2 "" H 4800 2950 50  0001 C CNN
+F 3 "" H 4800 2950 50  0001 C CNN
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R4
+U 1 1 5F878326
+P 4800 3150
+F 0 "R4" V 4604 3150 50  0000 C CNN
+F 1 "4.7K" V 4695 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4800 3150 50  0001 C CNN
+F 3 "~" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2950 4800 3050
+Wire Wire Line
+	5200 3300 4800 3300
+Wire Wire Line
+	4800 3300 4800 3250
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR0106
+U 1 1 5F87834D
+P 6350 2950
+F 0 "#PWR0106" H 6350 2800 50  0001 C CNN
+F 1 "+3.3V" H 6365 3123 50  0000 C CNN
+F 2 "" H 6350 2950 50  0001 C CNN
+F 3 "" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR0107
+U 1 1 5F878353
+P 6350 3800
+F 0 "#PWR0107" H 6350 3550 50  0001 C CNN
+F 1 "GND" H 6355 3627 50  0000 C CNN
+F 2 "" H 6350 3800 50  0001 C CNN
+F 3 "" H 6350 3800 50  0001 C CNN
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C1
+U 1 1 5F878359
+P 6350 3600
+F 0 "C1" V 6121 3600 50  0000 C CNN
+F 1 "0.1uF" V 6212 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6350 3600 50  0001 C CNN
+F 3 "~" H 6350 3600 50  0001 C CNN
+	1    6350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:C_Small-Device C2
+U 1 1 5F87835F
+P 6700 3600
+F 0 "C2" V 6471 3600 50  0000 C CNN
+F 1 "0.1uF" V 6562 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6700 3600 50  0001 C CNN
+F 3 "~" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR0108
+U 1 1 5F878365
+P 6700 3800
+F 0 "#PWR0108" H 6700 3550 50  0001 C CNN
+F 1 "GND" H 6705 3627 50  0000 C CNN
+F 2 "" H 6700 3800 50  0001 C CNN
+F 3 "" H 6700 3800 50  0001 C CNN
+	1    6700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR0109
+U 1 1 5F87836B
+P 6700 2950
+F 0 "#PWR0109" H 6700 2800 50  0001 C CNN
+F 1 "+3.3V" H 6715 3123 50  0000 C CNN
+F 2 "" H 6700 2950 50  0001 C CNN
+F 3 "" H 6700 2950 50  0001 C CNN
+	1    6700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3200 6350 3200
+Wire Wire Line
+	6350 3200 6350 2950
+Wire Wire Line
+	6350 3200 6350 3500
+Connection ~ 6350 3200
+Wire Wire Line
+	6350 3700 6350 3800
+Wire Wire Line
+	5900 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 2950
+Wire Wire Line
+	6700 3400 6700 3500
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3700 6700 3800
+$Comp
+L FEMAVitalsMonitor-rescue:R_Small-Device R1
+U 1 1 5F87837B
+P 4500 3150
+F 0 "R1" V 4304 3150 50  0000 C CNN
+F 1 "4.7K" V 4395 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4500 3150 50  0001 C CNN
+F 3 "~" H 4500 3150 50  0001 C CNN
+	1    4500 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 3500 5900 3650
+Wire Wire Line
+	5900 3650 4500 3650
+Wire Wire Line
+	4500 3650 4500 3250
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR0110
+U 1 1 5F878384
+P 4500 2950
+F 0 "#PWR0110" H 4500 2800 50  0001 C CNN
+F 1 "+3.3V" H 4515 3123 50  0000 C CNN
+F 2 "" H 4500 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3050 4500 2950
+Text Label 4900 3500 0    50   ~ 0
+SCL
+Text Label 4900 3400 0    50   ~ 0
+SDA
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F885056
+P 7500 3300
+F 0 "J1" H 7418 3617 50  0000 C CNN
+F 1 "Conn_01x04" H 7418 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 3300 50  0001 C CNN
+F 3 "~" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L FEMAVitalsMonitor-rescue:+3.3V-power #PWR0111
+U 1 1 5F889C92
+P 7900 3050
+F 0 "#PWR0111" H 7900 2900 50  0001 C CNN
+F 1 "+3.3V" H 7915 3223 50  0000 C CNN
+F 2 "" H 7900 3050 50  0001 C CNN
+F 3 "" H 7900 3050 50  0001 C CNN
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+Text Label 7900 3300 2    50   ~ 0
+SDA
+Text Label 7900 3400 2    50   ~ 0
+SCL
+$Comp
+L FEMAVitalsMonitor-rescue:GND-power #PWR0112
+U 1 1 5F88B1BB
+P 7900 3650
+F 0 "#PWR0112" H 7900 3400 50  0001 C CNN
+F 1 "GND" H 7905 3477 50  0000 C CNN
+F 2 "" H 7900 3650 50  0001 C CNN
+F 3 "" H 7900 3650 50  0001 C CNN
+	1    7900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3500 7900 3500
+Wire Wire Line
+	7900 3500 7900 3650
+Wire Wire Line
+	7700 3200 7900 3200
+Wire Wire Line
+	7900 3200 7900 3050
+Wire Wire Line
+	7900 3300 7700 3300
+Wire Wire Line
+	7900 3400 7700 3400
+Text Notes 7350 7500 0    50   ~ 0
+BME280 ALTIMETER / TEMPERATURE SENSOR
+Text Notes 10550 7650 0    50   ~ 0
+1.0
+Wire Wire Line
+	4900 3400 5200 3400
+Wire Wire Line
+	4900 3500 5200 3500
+$EndSCHEMATC

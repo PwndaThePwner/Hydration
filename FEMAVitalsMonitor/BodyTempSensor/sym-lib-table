@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name FEMAVitalsMonitor-rescue)(type Legacy)(uri C:/Users/TageFirkin/Desktop/FEMA/KiCAD/FEMAVitalsMonitor/FEMAVitalsMonitor-rescue.lib)(options "")(descr ""))
+  (lib (name FEMA_Lib)(type Legacy)(uri C:/Users/TageFirkin/Desktop/FEMA/KiCAD/FEMAVitalsMonitor/FEMA_Lib.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri C:/KiCADLibs/SamacSys_Parts.lib)(options "")(descr ""))
+)
