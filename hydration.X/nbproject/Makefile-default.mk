@@ -94,26 +94,26 @@ MP_PROCESSOR_OPTION=ATmega32U4
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/newmain.o: newmain.c  .generated_files/2cc2b8cb809e8b6aa893d47ec149f22754c39f2.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
+${OBJECTDIR}/newmain.o: newmain.c  .generated_files/99562c9159f4d15c0df3bc4d49ad5a2ea16c9541.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/newmain.o.d 
 	@${RM} ${OBJECTDIR}/newmain.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1 -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/newmain.o.d" -MT "${OBJECTDIR}/newmain.o.d" -MT ${OBJECTDIR}/newmain.o -o ${OBJECTDIR}/newmain.o newmain.c 
 	
-${OBJECTDIR}/reference.o: reference.c  .generated_files/d003896851e7e9716acc7026b1c9db2c8c680f06.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
+${OBJECTDIR}/reference.o: reference.c  .generated_files/af60e72513714e47137c1a7c4da2b6912ae83dd2.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/reference.o.d 
 	@${RM} ${OBJECTDIR}/reference.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1 -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/reference.o.d" -MT "${OBJECTDIR}/reference.o.d" -MT ${OBJECTDIR}/reference.o -o ${OBJECTDIR}/reference.o reference.c 
 	
 else
-${OBJECTDIR}/newmain.o: newmain.c  .generated_files/b657a8d97fde019ab32e9d0972517558a482c46a.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
+${OBJECTDIR}/newmain.o: newmain.c  .generated_files/173a9fa54487ea304e467a8ee3e48170b53364d0.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/newmain.o.d 
 	@${RM} ${OBJECTDIR}/newmain.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3     -MD -MP -MF "${OBJECTDIR}/newmain.o.d" -MT "${OBJECTDIR}/newmain.o.d" -MT ${OBJECTDIR}/newmain.o -o ${OBJECTDIR}/newmain.o newmain.c 
 	
-${OBJECTDIR}/reference.o: reference.c  .generated_files/d5bf1b4f3a50b0255df8fd21c030f1e06496d5da.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
+${OBJECTDIR}/reference.o: reference.c  .generated_files/365e85320d87660b7ad18ccf9f54b1f0ff715a74.flag .generated_files/27c53722f267b8534e04e183faabe2503039eb24.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/reference.o.d 
 	@${RM} ${OBJECTDIR}/reference.o 
